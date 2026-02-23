@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🔥 IgnisGuard – AI Fire Detection Sound Alert System
 
-# Run and deploy your AI Studio app
+IgnisGuard is an AI-powered fire detection system that uses computer vision to detect fire in real-time through a camera feed. When fire is detected, the system automatically plays an alert sound to notify users immediately.
 
-This contains everything you need to run your app locally.
+This project is designed for early fire detection and emergency alerting in homes, offices, labs, or industrial environments.
 
-View your app in AI Studio: https://ai.studio/apps/abcd8761-8a6e-4113-a1cc-f7f7150ca89f
+🚀 Features
 
-## Run Locally
+🔍 Real-time fire detection using AI
 
-**Prerequisites:**  Node.js
+📷 Live camera/video stream processing
 
+🔊 Automatic alarm sound when fire is detected
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+⚡ Fast and lightweight implementation
+
+🖥️ Simple and easy-to-use interface
+
+🛑 Immediate alert response system
+
+🧠 How It Works
+
+The system captures live video using a webcam.
+
+Each video frame is processed using a trained fire detection model.
+
+If fire is detected:
+
+A warning message is displayed.
+
+An alarm sound is played instantly.
+
+If no fire is detected:
+
+The system continues monitoring in real time.
+
+🛠️ Technologies Used
+
+Python
+
+OpenCV
+
+NumPy
+
+AI / Deep Learning Model (Fire Detection Model)
+
+Pygame / Playsound (for alarm system)
