@@ -1,0 +1,7 @@
+{
+  "name": "IgnisGuard - AI Fire Detection System",
+  "description": "A real-time fire detection and siren alert system using Gemini's computer vision capabilities to analyze live camera feeds and trigger safety protocols.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
